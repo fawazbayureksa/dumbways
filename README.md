@@ -1,6 +1,6 @@
 Jawaban Untuk Bacth 21 Kloter 2
 
-Untuk Menjalankan Soal 4A
+Untuk Menjalankan Soal 4B
 Tools Yang Digunakan
   1.  XAMPP
   2. Sublime Text
