@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 06, 2021 at 11:05 AM
--- Server version: 10.4.17-MariaDB
--- PHP Version: 8.0.0
+-- Generation Time: Feb 09, 2021 at 05:24 PM
+-- Server version: 10.4.13-MariaDB
+-- PHP Version: 7.4.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -41,7 +41,7 @@ CREATE TABLE `cycle` (
 --
 
 INSERT INTO `cycle` (`id_cycle`, `name`, `price`, `stock`, `image`, `id_merek`) VALUES
-(8, 'Brompton', 80000000, 5, 'Brompton.jpg', 1),
+(8, 'Brompton', 80000000, 4, 'brompton3.jpg', 1),
 (9, 'X CROSS', 15000000, 3, 'spdgn.jpg', 2),
 (10, 'Montain', 17000000, 1, 'vigilon.jpg', 2),
 (11, 'BMX', 3000000, 6, 'brompton_.jpg', 2),
