@@ -12,7 +12,7 @@
 	  	  while ($data = mysqli_fetch_assoc($query)) {
 		 ?>
 			<div class="col-sm-3">
-				<div class="card bg-dark text-center">
+				<div class="card bg-dark text-center mb-5">
 					<div  class="card-body">
 						<img src="assets/image/<?=$data['image']?>" width=250px class="img-thumbnail">
 						<div class="row mt-2">
@@ -31,7 +31,6 @@
 								<p class="text-sm">Stock : <?=$data['stock']?></p>
 							</div>
 						</div>
-						
 					</div>
 					<div class="card-footer">
 						<div class="row justify-content-center">
@@ -47,5 +46,6 @@
 			</div>
 		<?php } ?>
 		</div>
+
 
 	

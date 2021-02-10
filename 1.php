@@ -169,9 +169,9 @@
 				<h2>Gaji Bersih</h2>
 		<p>==============================================</p>
 
-		<h5>Potongan Pensiun : <?=number_format($bpensiun)?></h5>
-		<h5>Potongan BPJS : <?=number_format($bbpjs)?></h5>
-		<h5 style="font-weight: bold;">GAJI BERSIH <?=number_format($gaber)?></h5>
+		<h5>Potongan Pensiun : Rp .<?=number_format($bpensiun)?></h5>
+		<h5>Potongan BPJS : Rp .<?=number_format($bbpjs)?></h5>
+		<h5 style="font-weight: bold;">GAJI BERSIH : Rp .<?=number_format($gaber)?></h5>
 
 		<?php } ?>
 
