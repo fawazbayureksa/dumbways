@@ -43,9 +43,8 @@ if (!isset($_SESSION["user"])) {
 						}
 						if ($_GET['page'] == 'add-merk') {
 							include 'addmerk.php';
-
 						}
-							if ($_GET['page'] == 'delete') {
+						if ($_GET['page'] == 'delete') {
 							include 'deletebike.php';
 						}
 						if ($_GET['page'] == 'detail') {
@@ -55,10 +54,11 @@ if (!isset($_SESSION["user"])) {
 							include 'adduser.php';
 						}if ($_GET['page'] == 'user') {
 							include 'user.php';
+						}if ($_GET['page'] == 'edit') {
+							include 'editbike.php';
 						}
 					}
-					
-		 ?>
+					?>
 	</div>
 		
 </body>
